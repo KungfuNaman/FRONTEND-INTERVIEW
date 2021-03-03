@@ -1,0 +1,40 @@
+.project1{
+    display:flex;
+    flex-direction: column;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.chart1{
+    height:50vh;
+    width:50vw;
+  
+}
+
+.chart2{
+    height:50vh;
+    width:50vw;
+}
+.chart3{
+    height:50vh;
+    width:80vw;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    transform: translate(150px,-20px)
+}
+.btn{
+    bottom:0px;display:flex;
+    justify-content:center;
+    align-items: center;
+    height:10px;
+    position: absolute;
+    margin-bottom: 0;
+    margin-right:0px;
+}
+button{
+    font-size: 29px;
+}
